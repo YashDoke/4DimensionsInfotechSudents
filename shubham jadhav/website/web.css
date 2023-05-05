@@ -1,0 +1,441 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo a{
+    color: gold;
+    font-size: 40px;
+    font-weight: bold;  
+}
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+.name a{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.din img{
+    width: 100%;
+    height: auto;
+}
+
+.hero{
+    width: 100%;
+    height: 300px;
+    padding-top: 10px;
+    
+}
+.pic{
+    width: 83%;
+    margin:15px  auto;
+    display: flex;
+    justify-content: space-between;
+}
+.villain{
+    width: 98%;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+.pic1{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 5px;
+}
+.pic1 img{
+    width: 100%;
+    height: auto;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.product h1{
+    font-size: 25px;
+    font-weight: bold;color: black;
+    padding: 10px;
+    text-align: center;
+}
+.box{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.box button{
+    width: 89px;
+    /* height: 51px; */
+    float: right;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: rgb(13, 14, 13);
+    background-color: rgb(213 255 219 / 80%);
+    /* padding: 16px; */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #36ff36;
+
+}
+.rolling{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+.price{
+    padding-top: 23px ;
+    color: red;
+}
+.box1 button{
+    width: 89px;
+    /* height: 51px; */
+    float: right;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: rgb(13, 14, 13);
+    background-color: rgb(213 255 219 / 80%);
+    /* padding: 16px; */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #36ff36;
+}
+.box1 p{
+    margin-bottom: 20px;
+}
+.snacks{
+    display: flex;
+    justify-content: space-around;
+}
+.box2{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+.box2 a{
+    width: 89px;
+    /* height: 51px; */
+    float: right;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: rgb(13, 14, 13);
+    background-color: rgb(213 255 219 / 80%);
+    /* padding: 16px; */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #36ff36;
+}
+.hookah{
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+.box3 a{
+    width: 89px;
+    /* height: 51px; */
+    float: right;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: rgb(13, 14, 13);
+    background-color: rgb(213 255 219 / 80%);
+    /* padding: 16px; */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #36ff36;
+
+}
+.drink{
+    display: flex;
+    justify-content: space-around;
+}
+.box4{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.box4 a{
+    width: 89px;
+    /* height: 51px; */
+    float: right;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: rgb(13, 14, 13);
+    background-color: rgb(213 255 219 / 80%);
+    /* padding: 16px; */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #36ff36;
+}
+.gum{
+    display: flex;
+    justify-content: space-around;
+}
+.box5{
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+}
+.box5 a{
+    width: 89px;
+    /* height: 51px; */
+    float: right;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: rgb(13, 14, 13);
+    background-color: rgb(213 255 219 / 80%);
+    /* padding: 16px; */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #36ff36;
+
+}
+.deliv{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    
+    text-align: center;
+    margin: 20px auto;
+}
+.super{
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 0 20px;
+}
+.web{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+   
+}
+.dev{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.shu{
+    list-style: none;
+}
+.jad{
+    list-style: none;
+}
+ .yash{
+    list-style: none;
+    
+   
+}
+
+.kiran{
+    list-style: none;   
+}
+
+@media  screen and (max-width:1080px) {
+    .logo a{
+        
+        font-size: 40px;   
+    }
+    input{
+        width: 500px;
+        height: 40px;
+    }
+    .din{
+        display: none;
+    }
+    .pic{
+        width: 70%;
+        margin:15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .pic img{
+        width: 280px;
+        height: 180px;
+        margin: 30px;
+    }     
+}
+
+@media  screen and (max-width:768px) {
+    .logo a{
+        font-size: 25px;
+        
+    }
+    h2{
+        font-size: 20px;
+    }
+    input{
+        width: 200px;
+        height: 30px;
+    }
+    .pic img{
+        width: 230px;
+        height: auto;
+        margin: 5px;
+    }
+    .product{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;
+    }
+    .rolling{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;
+    }
+    .snacks{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;
+    }
+    .hookah{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;
+    }
+    .drink{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;
+    }
+    .gum{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;
+    }
+    .box-width{
+        width: 150px;
+        height: 225px;
+        
+    }
+    .box1{
+        width: 150px;
+        height: 267px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .box{
+        width: 150px;
+        height: 267px;
+    }
+    .hero{
+        width: 100%;
+        height: 170px;
+        
+    }
+}
+@media  screen and (max-width:550px) {
+    logo a{
+        font-size: 20px;
+       
+        
+    }
+    h2{
+        font-size: 15px;
+    }
+    input{
+        width: 150px;
+        height: 20px;
+    }
+    .pic img{
+        width: 130px;
+        height: auto;
+        margin: 20px;
+    }
+    .product{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+    }
+    .rolling{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+    }
+    .snacks{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+    }
+    .hookah{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+    }
+    .drink{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+    }
+    .gum{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+    }
+    .box-width{
+        width: 150px;
+        height: 225px;
+        
+    }
+    .box1{
+        width: 150px;
+        height: 267px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .box{
+        width: 150px;
+        height: 267px;
+    }
+    .hero{
+        width: 100%;
+        height: 170px; 
+    }
+    h1{
+        font-size: 25px;
+    }
+
+    
+}
