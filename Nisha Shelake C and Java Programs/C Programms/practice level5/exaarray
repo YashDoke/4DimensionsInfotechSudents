@@ -1,0 +1,62 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,num;
+    int age[3][4];
+    printf("enter a array:\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<4;j++)
+        {
+           printf("%d",&age[i][j]);
+        }
+
+    }
+    printf("\n");
+
+    printf("displaying a array:\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<4;j++)
+        {
+           if(i==num)
+            {
+                printf("number is presented in this array:%d",num);
+            }
+            else
+            {
+                printf("number is not present in this array%d",num);
+            }
+        }
+
+    }
+    printf("\n");
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if(i==num)
+            {
+                printf("number is presented in this array:%d",num);
+            }
+            else
+            {
+                printf("number is not present in this array%d",num);
+            }
