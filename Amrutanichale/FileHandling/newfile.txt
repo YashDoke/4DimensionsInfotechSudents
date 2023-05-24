@@ -1,0 +1,1 @@
+this is my fileIn the following example, we use the FileWriter class together with its write() method to write some text to the file we created in the example above. Note that when you are done writing to the file, you should close it with the close() method:
