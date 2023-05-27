@@ -1,0 +1,49 @@
+Write a program to find the sum of two numbers.
+Write a program to swap two numbers without using a temporary variable.
+Write a program to find the largest of three numbers.
+Write a program to check if a number is even or odd.
+Write a program to check if a number is positive, negative, or zero.
+Write a program to convert Fahrenheit to Celsius.
+Write a program to convert Celsius to Fahrenheit.
+Write a program to find the factorial of a number.
+Write a program to print the Fibonacci series up to a given number.
+Write a program to find the GCD of two numbers.
+Write a program to find the LCM of two numbers.
+Write a program to reverse a string.
+Write a program to check if a string is a palindrome.
+Write a program to count the number of words in a string.
+Write a program to find the length of the longest word in a string.
+Write a program to find the frequency of a character in a string.
+Write a program to remove all whitespace from a string.
+Write a program to remove all vowels from a string.
+Write a program to sort an array of integers in ascending order.
+Write a program to sort an array of integers in descending order.
+Write a program to find the second largest number in an array of integers.
+Write a program to find the second smallest number in an array of integers.
+Write a program to remove duplicates from an array of integers.
+Write a program to find the sum of all elements in an array of integers.
+Write a program to find the average of all elements in an array of integers.
+Write a program to find the maximum element in an array of integers.
+Write a program to find the minimum element in an array of integers.
+Write a program to find the index of a given element in an array of integers.
+Write a program to merge two arrays of integers.
+Write a program to reverse an array of integers.
+Write a program to check if an array of integers is sorted in ascending order.
+Write a program to check if an array of integers is sorted in descending order.
+Write a program to find the intersection of two arrays of integers.
+Write a program to find the union of two arrays of integers.
+Write a program to find the difference of two arrays of integers.
+Write a program to find the complement of an array of integers.
+Write a program to find the first non-repeating element in an array of integers.
+Write a program to find the common elements in two arrays of integers.
+Write a program to find the kth smallest element in an array of integers.
+Write a program to find the kth largest element in an array of integers.
+Write a program to implement linear search on an array of integers.
+Write a program to implement binary search on a sorted array of integers.
+Write a program to implement bubble sort on an array of integers.
+Write a program to implement insertion sort on an array of integers.
+Write a program to implement selection sort on an array of integers.
+Write a program to implement quicksort on an array of integers.
+Write a program to implement mergesort on an array of integers.
+Write a program to implement heap sort on an array of integers.
+Write a program to implement radix sort
